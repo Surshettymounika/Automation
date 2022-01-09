@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/A-8602/IdeaProjects/Automation_SauceDemo/src/test/java/UI/LoginTestCase1.java">
+        <classes>
+            <class name="UI.LoginTestCase1">
+                <methods><include name="validateLogin"/>
+                    <include name="loginTestCase1"/>
+                    <include name="addItem"/>
+                    <include name="checkoutItem"/>
+                    <include name="addingDetails"/>
+                    <include name="paymentSummary"/>
+                    <include name="performLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
